@@ -20,7 +20,7 @@ pyenv install 3.10.5
 ### 1.C
 Then: install poetry, a python package manager.
 ```
-curl -sSL https://install.python-poetry.org | python3 -
+curl -sSL https://install.python-poetry.org | python3.10 
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zprofile
 ```
 
